@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-cd $HOME/CARLOS
-while(true) do
-rm -fr ../.telegram-cli
-screen -S CARLOS -X kill
-screen -S CARLOS ./CARLOS
-done
