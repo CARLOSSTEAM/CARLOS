@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/CARLOSS
+while(true) do
+rm -fr ../.telegram-cli
+screen -S CARLOSS -X kill
+screen -S CARLOSS ./CARLOSS
+done
